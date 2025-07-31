@@ -77,4 +77,6 @@ Result from user_test_function: 2
 
 这样如果主版本升级，程序必须重新编译，因为主版本升级意味着接口不兼容，但是小版本升级不影响，一般是功能增加/bug修正
 
+# 参考
 
+* [How Do so (Shared Object) Filenames Work?](https://www.baeldung.com/linux/shared-object-filenames)
