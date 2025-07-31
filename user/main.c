@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello, User Test!\n");
-    user_test_function();
+    int res = user_test_function();
+    printf("Result from user_test_function: %d\n", res);
     return 0;
 }

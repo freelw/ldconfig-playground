@@ -19,3 +19,4 @@ install:
 	install -D -m 755 $(TARGET) /usr/local/lib/$(TARGET)
 	ldconfig
 	ln -sf /usr/local/lib/libuser_test.so.$(MAJOR) /usr/local/lib/$(PREFIX)
+	cp user_test.h /usr/local/include/user_test.h
